@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="api/src/main/java"/>
+	<classpathentry kind="src" path="microservices/product-composite-service/src/main/java"/>
+	<classpathentry kind="src" path="microservices/product-composite-service/src/test/java"/>
+	<classpathentry kind="src" path="microservices/product-service/src/main/java"/>
+	<classpathentry kind="src" path="microservices/product-service/src/test/java"/>
+	<classpathentry kind="src" path="microservices/recommendation-service/src/main/java"/>
+	<classpathentry kind="src" path="microservices/recommendation-service/src/test/java"/>
+	<classpathentry kind="src" path="microservices/review-service/src/main/java"/>
+	<classpathentry kind="src" path="microservices/review-service/src/test/java"/>
+	<classpathentry kind="src" path="util/src/main/java"/>
+	<classpathentry kind="lib" path="gradle/wrapper/gradle-wrapper.jar"/>
+	<classpathentry kind="lib" path="microservices/product-composite-service/build/libs/product-composite-service-0.0.1-SNAPSHOT.jar"/>
+	<classpathentry kind="lib" path="microservices/product-composite-service/gradle/wrapper/gradle-wrapper.jar"/>
+	<classpathentry kind="lib" path="microservices/product-service/build/libs/product-service-0.0.1-SNAPSHOT.jar"/>
+	<classpathentry kind="lib" path="microservices/product-service/gradle/wrapper/gradle-wrapper.jar"/>
+	<classpathentry kind="lib" path="microservices/recommendation-service/build/libs/recommendation-service-0.0.1-SNAPSHOT.jar"/>
+	<classpathentry kind="lib" path="microservices/recommendation-service/gradle/wrapper/gradle-wrapper.jar"/>
+	<classpathentry kind="lib" path="microservices/review-service/build/libs/review-service-0.0.1-SNAPSHOT.jar"/>
+	<classpathentry kind="lib" path="microservices/review-service/gradle/wrapper/gradle-wrapper.jar"/>
+	<classpathentry kind="output" path="microservices/product-composite-service/bin/main"/>
+</classpath>

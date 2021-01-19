@@ -9,8 +9,8 @@ spring init \
 --java-version=1.8 \
 --packaging=jar \
 --name=product-service \
---package-name=io.whatap.jjsong.microservices.core.product \
---groupId=io.whatap.jjsong.microservices.core.product \
+--package-name=se.magnus.microservices.core.product \
+--groupId=se.magnus.microservices.core.product \
 --dependencies=actuator,webflux \
 --version=1.0.0-SNAPSHOT \
 product-service
@@ -21,8 +21,8 @@ spring init \
 --java-version=1.8 \
 --packaging=jar \
 --name=review-service \
---package-name=io.whatap.jjsong.microservices.core.review \
---groupId=io.whatap.jjsong.microservices.core.review \
+--package-name=se.magnus.microservices.core.review \
+--groupId=se.magnus.microservices.core.review \
 --dependencies=actuator,webflux \
 --version=1.0.0-SNAPSHOT \
 review-service
@@ -33,8 +33,8 @@ spring init \
 --java-version=1.8 \
 --packaging=jar \
 --name=recommendation-service \
---package-name=io.whatap.jjsong.microservices.core.recommendation \
---groupId=io.whatap.jjsong.microservices.core.recommendation \
+--package-name=se.magnus.microservices.core.recommendation \
+--groupId=se.magnus.microservices.core.recommendation \
 --dependencies=actuator,webflux \
 --version=1.0.0-SNAPSHOT \
 recommendation-service
